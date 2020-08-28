@@ -9,7 +9,7 @@ import static com.codeborne.selenide.Selenide.open;
 
 class GitTraining {
     @Test
-    void GoogleSearch () {
+    void googleSearch () {
         // Open Google
         open("https://www.google.ru");
 
