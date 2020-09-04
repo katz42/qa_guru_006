@@ -19,6 +19,7 @@ compileTestJava {
     options.encoding = 'UTF-8'
 }
 
-test {
-    useJUnitPlatform()
+task google_ui_test(type: Test) {
+    useJUnitPlatform() {
+}
 }
